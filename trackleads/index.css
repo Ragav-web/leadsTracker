@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif; /* Changed font to Open Sans */
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7; /* Changed color to a light gray */
+    margin-bottom: 4px;
+    border-radius: 8px; /* Slightly reduced border-radius */
+}
+
+button {
+    background: #1da04e; /* Changed color to a shade of green */
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #27ae60; /* Matching border color */
+    font-weight: bold;
+    border-radius: 8px; /* Slightly reduced border-radius */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2cc163; /* Darker green on hover */
+}
+
+#delete-btn {
+    background: #e74c3c; /* Red for delete button */
+    color: white;
+    border: 1px solid #c0392b; /* Matching border color */
+    border-radius: 8px;
+}
+
+#delete-btn:hover {
+    background: #c0392b; /* Darker red on hover */
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #27ae60;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Import Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
